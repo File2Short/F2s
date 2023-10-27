@@ -10,14 +10,14 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(environ.get("API_ID","22939818"))
     API_HASH = str(environ.get("API_HASH","ef43fe3762fb69770897433112183da3"))
-    BOT_TOKEN = str(environ.get("BOT_TOKEN", "6304825659:AAGvjkT-weEc1tqaz43v7RgWMZbi72-gA-o"))
-    SHORTNER_API = str(environ.get("SHORTNER_API", "02c93c55c4567035a37ffc32731d8f0e1c530f98")) 
-    SHORTENR_URL = str(environ.get("SHORTENR_URL", "tnshort.net")) 
+    BOT_TOKEN = str(environ.get("BOT_TOKEN", "6890961089:AAGPLbj9vQjR52-yXgCAWXeHVX3AsfKvAaI"))
+    SHORTNER_API = str(environ.get("SHORTNER_API", "")) 
+    SHORTENR_URL = str(environ.get("SHORTENR_URL", "")) 
     AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "Qtmve_linkZzz")) 
     CUSTOM_FILE_CAPTION = str(environ.get("CUSTOM_FILE_CAPTION","** {file_name} \n\n ➠Fast Download Link : \n {short_link} **")) 
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
     WORKERS = int(environ.get("WORKERS", "6"))  # 6 workers = 6 commands at once
-    BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1001947058209"))  # you NEED to use a CHANNEL when you're using MULTI_CLIENT
+    BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1002124854329"))  # you NEED to use a CHANNEL when you're using MULTI_CLIENT
     PORT = int(environ.get("PORT", 8080))
     BIND_ADDRESS = str(environ.get("WEB_SERVER_BIND_ADDRESS", "0.0.0.0"))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1600"))  # 20 minutes
