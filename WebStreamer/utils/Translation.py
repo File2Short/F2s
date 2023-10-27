@@ -14,11 +14,11 @@ class Language(object):
 
     class en(object):
         START_TEXT = """ <b>
-Hello, {}
+𝐇𝐞𝐥𝐥𝐨, ♣{}♠
 
-It's Me Prime File2Link BoT
+𝐈𝐭'𝐬 𝐌𝐞 𝐅𝐢𝐥𝐞 𝐓𝐨 𝐒𝐡𝐨𝐫𝐭 
 
-If you want like this BoT Contact ME!
+𝐈𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐥𝐢𝐤𝐞 𝐭𝐡𝐢𝐬 𝐁𝐨𝐓 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐄!🦞
 </b> """
 
         HELP_TEXT = """ <b>
@@ -92,7 +92,7 @@ class BUTTON(object):
     START_BUTTONS = InlineKeyboardMarkup(
          [
              [
-                 InlineKeyboardButton("♡︎ Cᴏɴᴛᴀᴄᴛ 🧛‍♂️ Aᴅᴍɪɴ ♡︎", url='https://t.me/Mr_Tamil_KId')
+                 InlineKeyboardButton("🌿𝐑𝐨𝐧𝐚𝐥𝐝𝐨💮", url='https://t.me/Owner_of_qtmve')
              ]
          ]
     )
