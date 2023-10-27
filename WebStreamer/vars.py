@@ -1,4 +1,4 @@
-# @Qtmve_linkZzz
+# @Owner_of_qtmve
 
 from os import environ
 from dotenv import load_dotenv
