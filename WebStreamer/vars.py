@@ -11,10 +11,10 @@ class Var(object):
     API_ID = int(environ.get("API_ID","22939818"))
     API_HASH = str(environ.get("API_HASH","ef43fe3762fb69770897433112183da3"))
     BOT_TOKEN = str(environ.get("BOT_TOKEN", "6890961089:AAGPLbj9vQjR52-yXgCAWXeHVX3AsfKvAaI"))
-    SHORTNER_API = str(environ.get("SHORTNER_API", "15c728d0af696e2c4751e0d3a965a0652b393ea7")) 
+    SHORTNER_API = str(environ.get("SHORTNER_API", "02c93c55c4567035a37ffc32731d8f0e1c530f98")) 
     SHORTENR_URL = str(environ.get("SHORTENR_URL", "tnshort.net")) 
     AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "Qtmve_linkZzz")) 
-    CUSTOM_FILE_CAPTION = str(environ.get("CUSTOM_FILE_CAPTION"," {file_name} \n\n ➠Fast Download Link : \n {short_link} ")) 
+    CUSTOM_FILE_CAPTION = str(environ.get("CUSTOM_FILE_CAPTION","<b><i>{file_name}\n\n⚡️ 𝐅𝐚𝐬𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤 ; \n{short_link}\n\n𝐉𝐨𝐢𝐧 -⋙ @{main_chat} </i></b>")) 
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
     WORKERS = int(environ.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1002124854329"))  # you NEED to use a CHANNEL when you're using MULTI_CLIENT
